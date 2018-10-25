@@ -3,16 +3,17 @@ install.packages(c('ISLR', 'e1071'))
 library(e1071)
 library(ISLR)
 
-    cleveland <- read.csv("datasets/processed.cleveland.csv",header=T)
-    hungarian <- read.csv("datasets/processed.hungarian.csv",header=T)
-    va <- read.csv("datasets/processed.va.csv",header=T)
-    switzerland<- read.csv("datasets/processed.switzerland.csv",header=T)
+    cleveland <- read.csv("~/datasets/processed.cleveland.csv",header=T)
+    hungarian <- read.csv("~/datasets/processed.hungarian.csv",header=T)
+    va <- read.csv("~/datasets/processed.va.csv",header=T)
+    switzerland<- read.csv("~/datasets/processed.switzerland.csv",header=T)
   
     data<-rbind(cleveland,hungarian,va,switzerland)
     data$slope<-NULL
     data$ca<-NULL
     data$thal<-NULL
-    data$class[data$class>1]<-"1"
+    data$class<-as.numeric(data$class)
+    data$class[(data$class>1)]<-"1"
    
        
     #find ? elements
