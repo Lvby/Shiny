@@ -1,4 +1,4 @@
-# Favicons
+
 ## test favicons
 [![NPM version](https://img.shields.io/npm/v/favicons.svg)](https://www.npmjs.org/package/favicons)
 [![rstudio](https://travis-ci.org/itgalaxy/favicons.svg?branch=master)](https://travis-ci.org/itgalaxy/favicons)
