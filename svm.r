@@ -7,13 +7,14 @@ library(ISLR)
     hungarian <- read.csv("datasets/processed.hungarian.csv",header=T)
     va <- read.csv("datasets/processed.va.csv",header=T)
     switzerland<- read.csv("datasets/processed.switzerland.csv",header=T)
-  
+    
     data<-rbind(cleveland,hungarian,va,switzerland)
     data$slope<-NULL
     data$ca<-NULL
     data$thal<-NULL
     data$class[data$class>1]<-"1"
-   
+  
+ 
        
     #find ? elements
      idx<-data =="?"
