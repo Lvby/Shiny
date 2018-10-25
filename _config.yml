@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 theme:              jekyll-theme-hacker
 show_downloads:     true
 #google_analytics:  [Your Google Analytics tracking ID]
+=======
+theme: jekyll-theme-hacker
+>>>>>>> 44cd95acfeec1a8191a28634e84b9a9b139e051b
