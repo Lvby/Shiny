@@ -1,5 +1,5 @@
 ## test favicons
-[![NPM version](https://img.shields.io/npm/v/favicons.svg)](https://www.npmjs.org/package/favicons)
+[![MIT version](https://img.shields.io/badge/license-MIT-blue.svg)](https://www.mit.org/package/favicons)
 [![rstudio](https://travis-ci.org/itgalaxy/favicons.svg?branch=master)](https://travis-ci.org/itgalaxy/favicons)
 [![shiny](https://coveralls.io/repos/github/itgalaxy/favicons/badge.svg?branch=master)](https://coveralls.io/github/itgalaxy/favicons?branch=master)
 [![Jekyll](https://david-dm.org/itgalaxy/favicons/status.svg)](https://david-dm.org/itgalaxy/favicons)
