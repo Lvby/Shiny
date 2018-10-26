@@ -1,3 +1,10 @@
+## test favicons
+[![NPM version](https://img.shields.io/npm/v/favicons.svg)](https://www.npmjs.org/package/favicons)
+[![rstudio](https://travis-ci.org/itgalaxy/favicons.svg?branch=master)](https://travis-ci.org/itgalaxy/favicons)
+[![shiny](https://coveralls.io/repos/github/itgalaxy/favicons/badge.svg?branch=master)](https://coveralls.io/github/itgalaxy/favicons?branch=master)
+[![Jekyll](https://david-dm.org/itgalaxy/favicons/status.svg)](https://david-dm.org/itgalaxy/favicons)
+
+
 The predictive analysis is carried out based on the attributes of the patients. The data
 originally consists of 76 attributes(including the target class label) but we are given the
 subset of 14 attributes from where 3 attributes are removed. The 3 attributes slope, ca and thal
